@@ -180,7 +180,7 @@ background_label.place(x=0, y=0, relwidth=1, relheight=1)
 select_button1 = tk.Button(root, text="Выбрать файл".center(14), command=select)
 select_button1.place(x=25, y=200)
 
-select_button2 = tk.Button(root, state=tk.DISABLED, text="Экспорт".center(20), command=export)
+select_button2 = tk.Button(root, state=tk.DISABLED, height=3, text="Экспорт".center(20), command=export)
 select_button2.place(x=25, y=235)
 
 # Многострочное поле для данных
